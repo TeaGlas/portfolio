@@ -54,7 +54,7 @@ export default function WorkSection({ content }) {
                     {slice.map((project) => (
                       <article
                         key={project.title}
-                        className={styles.projectCard}
+                        className={`${styles.projectCard} ${project.href ? styles.projectCardClickable : ""}`}
                       >
                         <div className={styles.projectMetaRow}>
                           <span className={styles.projectMeta}>
@@ -71,7 +71,18 @@ export default function WorkSection({ content }) {
                             </a>
                           )}
                         </div>
-                        <p className={styles.projectTitle}>{project.title}</p>
+                        {project.href ? (
+                          <a
+                            href={project.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={styles.projectTitle}
+                          >
+                            {project.title}
+                          </a>
+                        ) : (
+                          <p className={styles.projectTitle}>{project.title}</p>
+                        )}
                         <p className={styles.projectDescription}>
                           {project.desc}
                         </p>
