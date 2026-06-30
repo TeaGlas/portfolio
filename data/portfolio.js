@@ -10,6 +10,7 @@ const sharedProfile = {
 
 const sharedCv = {
   href: "/cv.pdf",
+  download: "Tessel-Glas-CV.pdf"
 };
 
 export const CONTENT = {
