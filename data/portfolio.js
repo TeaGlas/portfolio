@@ -83,7 +83,7 @@ export const CONTENT = {
           type: "Hobby",
           year: "2026",
           live: true,
-          href: "https://yourproject.dev",
+          href: "https://teaglas.github.io/UX-UI-Training/",
           desc: "Een klein project dat ik bouwde om goede vs slechte UX UI-praktijken te illustreren. Het werd gebruikt in een interne trainingssessie voor mijn bedrijf.",
           tagLabels: ["TypeScript", "React"],
         },
