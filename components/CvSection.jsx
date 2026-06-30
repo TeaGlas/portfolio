@@ -10,7 +10,13 @@ export default function CvSection({ content }) {
         <p className={styles.cardTitle}>{content.cv.title}</p>
         <p className={styles.cardCopy}>{content.cv.copy}</p>
       </div>
-      <PillButton as="a" href={content.cv.href} className={styles.cvButton}>
+      <PillButton
+        as="a"
+        href={content.cv.href}
+        download={content.cv.download}
+        type="application/pdf"
+        className={styles.cvButton}
+      >
         {content.cv.cta} <span className={styles.buttonIcon}>&darr;</span>
       </PillButton>
     </section>
