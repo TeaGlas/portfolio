@@ -9,7 +9,7 @@ const sharedProfile = {
 };
 
 const sharedCv = {
-  href: "/cv.pdf",
+  href: "/documents/CV - Tessel Glas.pdf",
   download: "Tessel-Glas-CV.pdf"
 };
 

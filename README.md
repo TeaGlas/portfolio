@@ -52,6 +52,9 @@ portfolio/
 │   └── Tag.jsx
 ├── data/
 │   └── portfolio.js    # Alle content, skills en contactlinks
+├── public/
+│   └── documents       # Documenten op de site
+│   └── icons           # Favicon
 ├── page.jsx            # Hoofd-component met taalstate en scroll-navigatie
 └── page.module.css     # Alle stijlen
 ```
