@@ -34,7 +34,6 @@ export const CONTENT = {
     },
     about: {
       label: "Over mij",
-      photo: "Jouw foto",
       paragraphs: [
         "Ik ben een fullstack developer met een voorkeur voor frontend. Ik bouw graag schone, goed gestructureerde interfaces en hecht veel waarde aan gebruikerservaring en codekwaliteit.",
         "Als ik niet werk, sta ik op het rugbyveld, in de keuken, of bouw ik aan kleine projecten voor de lol.",
@@ -136,7 +135,6 @@ export const CONTENT = {
     },
     about: {
       label: "About me",
-      photo: "Your photo",
       paragraphs: [
         "I'm a fullstack developer with a preference for frontend. I love building clean, well-structured interfaces and care deeply about user experience and code quality.",
         "When I'm not working I'm usually on the rugby field, in the kitchen, or working on small projects for fun.",
