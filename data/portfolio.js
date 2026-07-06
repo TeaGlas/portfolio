@@ -74,7 +74,7 @@ export const CONTENT = {
           type: "Hobby",
           year: "2025",
           live: true,
-          href: "https://teaglas.github.io/recepten/",
+          href: "https://tessels.vercel.app/",
           desc: "Een website die ik bouwde om mijn favoriete recepten online te delen. Het kan worden bijgewerkt, gefilterd en doorzocht via een eenvoudige interface.",
           tagLabels: ["TypeScript", "React"],
         },
