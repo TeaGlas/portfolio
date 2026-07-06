@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "../page.module.css";
 import SectionLabel from "./SectionLabel";
 
@@ -6,7 +7,15 @@ export default function AboutSection({ content }) {
     <section className={`${styles.card} ${styles.aboutSection}`}>
       <SectionLabel>{content.about.label}</SectionLabel>
       <div className={styles.profileRow}>
-        <div className={styles.photoBox}>{content.about.photo}</div>
+        <div className={styles.photoBox}>
+          <Image
+            src="/icons/profile-pic-Tessel-Glas.jpg"
+            alt={content.profile.name}
+            width={76}
+            height={76}
+            className={styles.photoImage}
+          />
+        </div>
         <div>
           <p className={styles.profileName}>{content.profile.name}</p>
           <p className={styles.profileLocation}>{content.profile.location}</p>
